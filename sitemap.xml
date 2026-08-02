@@ -3,51 +3,51 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://kizunasoftware.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/"/>
+    <loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/index-ja.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/index-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/"/>
   </url>
   <url>
-    <loc>https://kizunasoftware.com/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/privacy"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/privacy"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/privacy"/>
+    <loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy-ja.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy.html"/>
   </url>
   <url>
-    <loc>https://kizunasoftware.com/terms</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/terms"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/terms"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/terms"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/terms"/>
+    <loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service-ja.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service.html"/>
   </url>
   <url>
-    <loc>https://kizunasoftware.com/support</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/support"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/support"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/support"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/support"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/support"/>
+    <loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support-ja.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support.html"/>
   </url>
 
-  <url><loc>https://kizunasoftware.com/ja</loc></url>
-  <url><loc>https://kizunasoftware.com/ja/privacy</loc></url>
-  <url><loc>https://kizunasoftware.com/ja/terms</loc></url>
-  <url><loc>https://kizunasoftware.com/ja/support</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/index-ja.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy-ja.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service-ja.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support-ja.html</loc></url>
 
-  <url><loc>https://kizunasoftware.com/fr</loc></url>
-  <url><loc>https://kizunasoftware.com/fr/privacy</loc></url>
-  <url><loc>https://kizunasoftware.com/fr/terms</loc></url>
-  <url><loc>https://kizunasoftware.com/fr/support</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/index-fr.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy-fr.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service-fr.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support-fr.html</loc></url>
 
-  <url><loc>https://kizunasoftware.com/ru</loc></url>
-  <url><loc>https://kizunasoftware.com/ru/privacy</loc></url>
-  <url><loc>https://kizunasoftware.com/ru/terms</loc></url>
-  <url><loc>https://kizunasoftware.com/ru/support</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/index-ru.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/privacy-policy-ru.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/terms-of-service-ru.html</loc></url>
+  <url><loc>https://kizuna-software-solutions.github.io/WiFi-Intruder-Links/support-ru.html</loc></url>
 
 </urlset>
