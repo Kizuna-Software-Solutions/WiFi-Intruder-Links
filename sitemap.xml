@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://kizunasoftware.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/"/>
+  </url>
+  <url>
+    <loc>https://kizunasoftware.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/privacy"/>
+  </url>
+  <url>
+    <loc>https://kizunasoftware.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/terms"/>
+  </url>
+  <url>
+    <loc>https://kizunasoftware.com/support</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kizunasoftware.com/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/support"/>
+  </url>
+
+  <url><loc>https://kizunasoftware.com/ja</loc></url>
+  <url><loc>https://kizunasoftware.com/ja/privacy</loc></url>
+  <url><loc>https://kizunasoftware.com/ja/terms</loc></url>
+  <url><loc>https://kizunasoftware.com/ja/support</loc></url>
+
+  <url><loc>https://kizunasoftware.com/fr</loc></url>
+  <url><loc>https://kizunasoftware.com/fr/privacy</loc></url>
+  <url><loc>https://kizunasoftware.com/fr/terms</loc></url>
+  <url><loc>https://kizunasoftware.com/fr/support</loc></url>
+
+  <url><loc>https://kizunasoftware.com/ru</loc></url>
+  <url><loc>https://kizunasoftware.com/ru/privacy</loc></url>
+  <url><loc>https://kizunasoftware.com/ru/terms</loc></url>
+  <url><loc>https://kizunasoftware.com/ru/support</loc></url>
+
+</urlset>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — WiFi Alertes Intrus</title>
+<meta name="description" content="Comment WiFi Alertes Intrus traite les données réseau : stockage local, sans publicité, sans compte, et divulgation complète de la fonctionnalité optionnelle AI Insights.">
+<link rel="canonical" href="https://kizunasoftware.com/fr/privacy">
+<link rel="alternate" hreflang="en" href="https://kizunasoftware.com/privacy">
+<link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/privacy">
+<link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/privacy">
+<link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/privacy">
+<link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/privacy">
+<link rel="icon" type="image/png" href="/assets/img/icon.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/fr">
+      <img src="/assets/img/icon.png" alt="Icône WiFi Alertes Intrus">
+      WiFi Alertes Intrus
+    </a>
+    <nav class="main-nav">
+      <a href="/fr">Accueil</a>
+      <a href="/fr/privacy" class="active">Confidentialité</a>
+      <a href="/fr/terms">Conditions</a>
+      <a href="/fr/support">Assistance</a>
+    </nav>
+    <div class="lang-switch">
+      <a href="/privacy">EN</a>
+      <a href="/ja/privacy">日本語</a>
+      <a href="/fr/privacy" class="active">Français</a>
+      <a href="/ru/privacy">RU</a>
+    </div>
+  </div>
+</header>
+
+<main class="legal">
+  <h1>Politique de confidentialité</h1>
+  <p class="meta">Dernière mise à jour : 2 août 2026 &middot; Application concernée : WiFi Alertes Intrus (package <code>com.kizunasoftware.wifi_intruder_alerts</code>)</p>
+
+  <p>Chez Kizuna Software Solutions, nous avons conçu WiFi Alertes Intrus avec un engagement sans faille envers la vie privée des utilisateurs. Cette politique de confidentialité décrit comment notre application interagit avec vos données, quelles informations sont traitées pour fournir nos fonctionnalités de diagnostic réseau et de sécurité périmétrique, et comment nous protégeons votre empreinte numérique.</p>
+  <p>En installant et en utilisant WiFi Alertes Intrus, vous reconnaissez et acceptez les pratiques de données décrites dans ce document. Cette politique fait partie intégrante de notre engagement envers la transparence et s'applique conjointement à nos <a href="/fr/terms">Conditions d'utilisation</a>.</p>
+
+  <div class="toc">
+    <p>Sommaire</p>
+    <ol>
+      <li><a href="#data-processing">Traitement des données et fonctionnalités principales</a></li>
+      <li><a href="#ai-insights">AI Insights (fonctionnalité optionnelle)</a></li>
+      <li><a href="#advertising">Politique publicitaire et marketing</a></li>
+      <li><a href="#third-party">Services tiers</a></li>
+      <li><a href="#log-data">Données de journal</a></li>
+      <li><a href="#storage">Stockage et bases de données locales</a></li>
+      <li><a href="#service-providers">Prestataires de services</a></li>
+      <li><a href="#security">Sécurité</a></li>
+      <li><a href="#updates">Mises à jour de la politique</a></li>
+      <li><a href="#contact">Nous contacter</a></li>
+    </ol>
+  </div>
+
+  <h2 id="data-processing"><span class="sec-no">1.</span>Traitement des données et fonctionnalités principales</h2>
+  <p>Nous respectons des principes stricts de minimisation des données. Pour fournir des informations réseau en temps réel, détecter les appareils non autorisés et vous alerter des intrusions potentielles, l'Application nécessite un accès opérationnel aux configurations réseau locales.</p>
+
+  <h3>Données techniques locales</h3>
+  <p>Pour établir une connexion stable et effectuer une analyse périmétrique, l'Application traite :</p>
+  <ul>
+    <li><strong>L'identifiant SSID (Service Set Identifier) :</strong> utilisé pour identifier et cataloguer votre environnement réseau sans fil actuel.</li>
+    <li><strong>Le BSSID (Basic Service Set Identifier) :</strong> utilisé pour détecter des points d'accès matériels spécifiques et cartographier l'infrastructure locale.</li>
+    <li><strong>L'adresse IP (Internet Protocol) :</strong> utilisée pour coordonner la découverte d'appareils locaux, vérifier les boucles de routage et exécuter des diagnostics de latence.</li>
+  </ul>
+
+  <h3>Détection d'intrus WiFi et découverte des appareils réseau</h3>
+  <p>Pour signaler les participants réseau inconnus, vérifier les équipements matériels et construire des règles d'accès personnalisées, l'Application scanne votre réseau local (LAN). Cette opération de sécurité traite :</p>
+  <ul>
+    <li><strong>Les adresses MAC (Media Access Control) :</strong> traitées sur l'appareil pour distinguer de manière unique les différentes unités matérielles communiquant sur la topologie de votre réseau.</li>
+    <li><strong>Les noms d'hôte des appareils et les signatures des fabricants :</strong> analysés pour traduire les indicateurs matériels bruts en noms d'appareils lisibles (par exemple, distinguer un smartphone non reconnu d'un thermostat intelligent).</li>
+    <li><strong>Les profils de confiance définis par l'utilisateur :</strong> enregistre vos classifications manuelles, telles que marquer explicitement un appareil comme &laquo; Vérifié &raquo;, &laquo; Non vérifié &raquo;, ou &laquo; Intrus &raquo;.</li>
+  </ul>
+
+  <h3>Notre principe local d'abord</h3>
+  <p>Toutes les signatures réseau locales, les adresses MAC découvertes, et les listes d'appareils &laquo; Vérifié/Non vérifié &raquo; compilées par l'utilisateur sont traitées et stockées entièrement dans le stockage local isolé (sandbox) de votre appareil physique. Ces données opérationnelles ne sont jamais transmises, stockées ou collectées par les serveurs d'entreprise externes de Kizuna Software Solutions. Le schéma de votre réseau domestique ou professionnel vous appartient strictement.</p>
+  <div class="callout">
+    <p>La seule exception étroite et optionnelle à ce traitement local exclusif est la fonctionnalité AI Insights, décrite immédiatement ci-dessous à la Section 2. Si vous n'activez jamais AI Insights, aucune donnée réseau ou d'appareil décrite dans cette section ne quitte jamais votre appareil.</p>
+  </div>
+
+  <h2 id="ai-insights"><span class="sec-no">2.</span>AI Insights (fonctionnalité optionnelle)</h2>
+  <p>WiFi Alertes Intrus inclut une fonctionnalité optionnelle &laquo; <strong>AI Insights</strong> &raquo; qui génère des explications en langage clair sur l'identité probable d'un appareil, son score de risque, ou un comportement d'usurpation possible. Cette fonctionnalité est <strong>désactivée par défaut</strong> et ne s'active que si vous l'activez explicitement dans les Paramètres.</p>
+  <p>Lorsque vous activez AI Insights, l'Application envoie un instantané limité et spécifique de l'appareil ou du réseau que vous consultez &mdash; tel que la signature du fabricant/fournisseur MAC, le nom d'hôte, l'adresse IP, les ports ouverts, et les signaux de risque/confiance déjà calculés sur votre appareil &mdash; à <strong>Groq, Inc.</strong>, un fournisseur tiers d'inférence IA, via une connexion chiffrée (HTTPS), dans le seul but de générer un résumé en langage naturel. Aucune information de compte, identifiant personnel, historique de navigation, ou donnée provenant d'autres applications de votre appareil n'est jamais incluse dans cette transmission.</p>
+  <p>La fonctionnalité AI Insights n'est qu'une couche d'explication complémentaire : elle ne détermine jamais le statut de confiance, ne calcule jamais le score de risque numérique, et ne déclare jamais de manière autonome qu'un appareil est usurpé. Ces déterminations sont entièrement effectuées par une logique déterministe, sans IA, exécutée sur votre appareil ; l'IA ne fait qu'expliquer ce que cette logique a déjà conclu. Si la requête IA échoue pour une raison quelconque, toutes les autres fonctionnalités de l'Application continuent de fonctionner normalement.</p>
+  <p>Vous pouvez désactiver AI Insights à tout moment dans les Paramètres. Cela arrête immédiatement tout envoi ultérieur de données d'appareil ou de réseau hors de votre appareil à cette fin.</p>
+
+  <h2 id="advertising"><span class="sec-no">3.</span>Politique publicitaire et marketing</h2>
+  <p>WiFi Alertes Intrus est entièrement sans publicité. Nous ne nous intégrons à aucun courtier publicitaire tiers, n'affichons aucune bannière commerciale, et ne profilons pas votre comportement dans l'application à des fins de marketing. Par conséquent, l'Application ne suit, ne demande, ni ne traite l'identifiant publicitaire Google de votre appareil.</p>
+
+  <h2 id="third-party"><span class="sec-no">4.</span>Services tiers</h2>
+  <p>Nous limitons les kits de développement logiciel (SDK) tiers et les services externes à l'infrastructure de niveau plateforme strictement nécessaire à la stabilité de l'application, ainsi qu'au fournisseur optionnel d'AI Insights décrit à la Section 2. Vous pouvez consulter les cadres de confidentialité de ces fournisseurs ici :</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" rel="noopener">Google Play Services</a></li>
+    <li><a href="https://groq.com/privacy-policy/" rel="noopener">Groq, Inc.</a> &mdash; contacté uniquement si vous activez explicitement AI Insights</li>
+  </ul>
+
+  <h2 id="log-data"><span class="sec-no">5.</span>Données de journal</h2>
+  <p>En cas de plantage soudain de l'application ou d'erreur d'exécution, l'Application collecte des données de diagnostic (via des outils de débogage sécurisés de la plateforme) générées par votre appareil. Ces données sont appelées données de journal et contiennent :</p>
+  <ul>
+    <li>Le nom du modèle, le fabricant et l'architecture matérielle de base de votre appareil.</li>
+    <li>La version du système d'exploitation et la configuration de l'état du système au moment exact de l'exception.</li>
+    <li>Les métriques d'exécution, horodatages, et traces de pile associés à l'événement système.</li>
+  </ul>
+  <p>Nous utilisons ces journaux exclusivement pour isoler les bogues logiciels, optimiser l'allocation des ressources, et déployer des mises à jour de performance.</p>
+
+  <h2 id="storage"><span class="sec-no">6.</span>Stockage et bases de données locales</h2>
+  <p>WiFi Alertes Intrus n'utilise pas de cookies de suivi. L'Application s'appuie sur des mécanismes de stockage natifs de l'appareil (tels que SQLite chiffré ou les SharedPreferences de la plateforme) pour conserver localement vos profils d'appareils vérifiés, vos filtres d'intrus, et vos préférences personnalisées.</p>
+  <p>Vous pouvez gérer les autorisations de stockage via les paramètres de votre système d'exploitation mobile à tout moment. Veuillez noter que l'effacement du cache ou des données de l'Application via les paramètres système effacera définitivement vos listes de vérification d'appareils compilées localement.</p>
+
+  <h2 id="service-providers"><span class="sec-no">7.</span>Prestataires de services</h2>
+  <p>Nous pouvons faire appel à des partenaires cloud externes ou à des prestataires d'infrastructure technique spécialisés pour :</p>
+  <ul>
+    <li>Héberger, sécuriser, ou maintenir les ressources de compilation principales et les mécanismes de distribution logicielle ;</li>
+    <li>Effectuer des tests de compilation automatisés ou des évaluations binaires en notre nom ; ou</li>
+    <li>Nous assister dans l'évaluation de métriques de performance télémétriques agrégées et entièrement non personnelles.</li>
+  </ul>
+  <p>Ces entités se voient accorder l'accès aux diagnostics de la plateforme dans le cadre de contraintes contractuelles strictes qui limitent l'utilisation aux tâches spécifiées et exigent une conformité maximale en matière de sécurité des données.</p>
+
+  <h2 id="security"><span class="sec-no">8.</span>Sécurité</h2>
+  <p>Assurer l'intégrité défensive de votre environnement d'application mobile est une priorité majeure. Bien que nous utilisions des schémas commerciaux standards pour protéger les bases de données locales de l'application et toute requête AI Insights en transit, aucune transmission sur le web ni aucun stockage numérique n'est totalement inviolable. Nous évaluons régulièrement nos cadres de chiffrement locaux, mais nous ne pouvons garantir une sécurité absolue contre toutes les menaces numériques émergentes.</p>
+
+  <h2 id="updates"><span class="sec-no">9.</span>Mises à jour de la politique</h2>
+  <p>Nous nous réservons le droit de réviser cette politique de confidentialité pour suivre le rythme des nouvelles fonctionnalités, des évolutions des autorisations des systèmes d'exploitation mobiles, ou des réglementations régionales sur la vie privée. Toute mise à jour sera affichée sur cette page et prendra effet immédiatement dès sa publication. Nous vous conseillons de consulter régulièrement cette déclaration pour suivre nos pratiques d'isolation des données.</p>
+
+  <h2 id="contact"><span class="sec-no">10.</span>Nous contacter</h2>
+  <p>Pour toute question concernant le traitement des données, la gestion des ressources, ou les mécanismes structurels de cette politique de confidentialité, veuillez contacter notre équipe à :</p>
+  <p>
+    <strong>Kizuna Software Solutions</strong><br>
+    E-mail : <a href="mailto:support@kizunasoftware.com">support@kizunasoftware.com</a><br>
+    Site web : <a href="https://www.kizunasoftwaresolutions.com/" rel="noopener">kizunasoftwaresolutions.com</a>
+  </p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; 2026 Kizuna Software Solutions. Tous droits réservés.</div>
+    <div class="footer-links">
+      <a href="/fr/privacy">Confidentialité</a>
+      <a href="/fr/terms">Conditions</a>
+      <a href="/fr/support">Assistance</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

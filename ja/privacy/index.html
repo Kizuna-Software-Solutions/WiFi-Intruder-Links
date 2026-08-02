@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー — WiFi 侵入者アラート</title>
+<meta name="description" content="WiFi 侵入者アラートによるネットワークデータの取り扱い方針：端末内処理を原則とし、広告なし・アカウント登録不要、オプション機能「AIインサイト」の完全な開示。">
+<link rel="canonical" href="https://kizunasoftware.com/ja/privacy">
+<link rel="alternate" hreflang="en" href="https://kizunasoftware.com/privacy">
+<link rel="alternate" hreflang="ja" href="https://kizunasoftware.com/ja/privacy">
+<link rel="alternate" hreflang="fr" href="https://kizunasoftware.com/fr/privacy">
+<link rel="alternate" hreflang="ru" href="https://kizunasoftware.com/ru/privacy">
+<link rel="alternate" hreflang="x-default" href="https://kizunasoftware.com/privacy">
+<link rel="icon" type="image/png" href="/assets/img/icon.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/ja">
+      <img src="/assets/img/icon.png" alt="WiFi 侵入者アラート アイコン">
+      WiFi 侵入者アラート
+    </a>
+    <nav class="main-nav">
+      <a href="/ja">ホーム</a>
+      <a href="/ja/privacy" class="active">プライバシーポリシー</a>
+      <a href="/ja/terms">利用規約</a>
+      <a href="/ja/support">サポート</a>
+    </nav>
+    <div class="lang-switch">
+      <a href="/privacy">EN</a>
+      <a href="/ja/privacy" class="active">日本語</a>
+      <a href="/fr/privacy">FR</a>
+      <a href="/ru/privacy">RU</a>
+    </div>
+  </div>
+</header>
+
+<main class="legal">
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">最終更新日：2026年8月2日 &middot; 対象アプリ：WiFi 侵入者アラート（パッケージ名 <code>com.kizunasoftware.wifi_intruder_alerts</code>）</p>
+
+  <p>Kizuna Software Solutionsでは、ユーザーのプライバシー保護に対する揺るぎないコミットメントのもと、「WiFi 侵入者アラート」アプリケーションを構築いたしました。本プライバシーポリシーは、当アプリケーションがお客様のデータとどのように相互作用するか、ネットワーク診断および境界セキュリティ機能を提供するためにどのような情報が処理されるか、そして当社がお客様のデジタルフットプリントをどのように保護するかについて説明するものです。</p>
+  <p>WiFi 侵入者アラートをインストールおよび利用することにより、お客様は本書に記載されているデータ慣行を認識し、これに同意したものとみなされます。本ポリシーは、透明性に対する当社の取り組みの不可欠な一部であり、当社の<a href="/ja/terms">利用規約</a>と並んで適用されます。</p>
+
+  <div class="toc">
+    <p>目次</p>
+    <ol>
+      <li><a href="#data-processing">データ処理とコア機能</a></li>
+      <li><a href="#ai-insights">AIインサイト（オプトイン機能）</a></li>
+      <li><a href="#advertising">広告およびマーケティングポリシー</a></li>
+      <li><a href="#third-party">サードパーティサービス</a></li>
+      <li><a href="#log-data">ログデータ</a></li>
+      <li><a href="#storage">ストレージとローカルデータベース</a></li>
+      <li><a href="#service-providers">サービスプロバイダー</a></li>
+      <li><a href="#security">セキュリティ</a></li>
+      <li><a href="#updates">ポリシーの改定</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ol>
+  </div>
+
+  <h2 id="data-processing"><span class="sec-no">1.</span>データ処理とコア機能</h2>
+  <p>当社は厳格なデータ最小化の原則を遵守しています。リアルタイムのネットワークインサイトを提供し、不正なデバイスを検出し、ワイヤレス侵入の可能性を警告するために、本アプリケーションはローカルのネットワーク構成への運用上のアクセスを必要とします。</p>
+
+  <h3>ローカル技術データ</h3>
+  <p>安定した接続を確立し、境界分析を実行するために、本アプリケーションは以下のデータを処理します。</p>
+  <ul>
+    <li><strong>SSID（Service Set Identifier）：</strong>現在のワイヤレスネットワーク環境を識別し、カタログ化するために使用されます。</li>
+    <li><strong>BSSID（Basic Service Set Identifier）：</strong>特定のハードウェアアクセスポイントを検出し、ローカルインフラストラクチャをマッピングするために使用されます。</li>
+    <li><strong>IPアドレス（Internet Protocol Address）：</strong>ローカルデバイスの検出を調整し、ルーティングループをチェックし、レイテンシ診断を実行するために使用されます。</li>
+  </ul>
+
+  <h3>WiFi侵入者およびネットワークデバイス検出</h3>
+  <p>未知のネットワーク参加者にフラグを立て、ハードウェアアセットを検証し、カスタムアクセスルールを構築するために、本アプリケーションはローカルエリアネットワーク（LAN）をスキャンします。このセキュリティ運用では、以下のデータが処理されます。</p>
+  <ul>
+    <li><strong>MACアドレス（Media Access Control Address）：</strong>ネットワークトポロジを介して通信する個々のハードウェアユニットを一意に識別するため、デバイス上で処理されます。</li>
+    <li><strong>デバイスのホスト名および製造元のシグネチャ：</strong>生のハードウェア識別子を、人間が読めるデバイス名に変換するために分析されます（例：認識されていないスマートフォンとスマートサーモスタットの識別など）。</li>
+    <li><strong>ユーザー定義の信頼プロファイル：</strong>デバイスを「検証済み」、「未検証」、または「侵入者」として明示的にマークするなどの、お客様による手動の分類を保存します。</li>
+  </ul>
+
+  <h3>ローカルファーストの原則</h3>
+  <p>ローカルのネットワークシグネチャ、検出されたMACアドレス、およびユーザーが編集した「検証済み/未検証」のデバイスリストはすべて、お客様の物理デバイスのサンドボックス化されたローカルストレージ内でのみ処理および保存されます。この運用データが、外部のKizuna Software Solutionsの企業サーバーに送信、保存、または収集されることは決してありません。お客様の家庭内または企業内のネットワーク設計図は、厳格にお客様自身だけのものとして維持されます。</p>
+  <div class="callout">
+    <p>このローカル処理のみという原則に対する唯一の例外は、次のセクション2で説明するオプトイン機能「AIインサイト」です。AIインサイトを一度も有効にしなかった場合、本セクションで説明したネットワークまたはデバイスのデータが端末外に送信されることはありません。</p>
+  </div>
+
+  <h2 id="ai-insights"><span class="sec-no">2.</span>AIインサイト（オプトイン機能）</h2>
+  <p>WiFi 侵入者アラートには、デバイスの推定される種類、リスクスコア、または疑わしいなりすまし挙動について、わかりやすい自然言語の説明を生成するオプション機能「<strong>AIインサイト</strong>」が搭載されています。この機能は既定で<strong>オフ</strong>になっており、設定画面で明示的に有効にした場合にのみ動作します。</p>
+  <p>AIインサイトを有効にすると、本アプリケーションは、現在表示しているデバイスまたはネットワークに関する限定的な情報（MACベンダー/製造元シグネチャ、ホスト名、IPアドレス、開いているポート、および端末上で既に算出されているリスク/信頼シグナルなど）を、サードパーティのAI推論プロバイダーである<strong>Groq, Inc.</strong>に、暗号化された（HTTPS）接続を通じて送信します。これは自然言語の要約を生成する目的のみに使用されます。アカウント情報、個人を特定できる識別子、閲覧履歴、または端末上の他のアプリのデータがこの送信に含まれることは一切ありません。</p>
+  <p>AIインサイト機能はあくまで補助的な説明レイヤーであり、信頼ステータスを決定したり、数値のリスクスコアを算出したり、独自にデバイスをなりすましと判定したりすることはありません。これらの判定はすべて、お客様の端末上で動作する決定論的な（AIを用いない）ロジックによって行われ、AIはそのロジックが既に導き出した結論を説明するのみです。AIへのリクエストが何らかの理由で失敗した場合でも、本アプリケーションの他のすべての機能には影響しません。</p>
+  <p>AIインサイトはいつでも設定画面から無効にできます。無効にすると、この目的のための端末外へのデータ送信は直ちに停止します。</p>
+
+  <h2 id="advertising"><span class="sec-no">3.</span>広告およびマーケティングポリシー</h2>
+  <p>WiFi 侵入者アラートは完全に広告フリーです。当社はサードパーティの広告ブローカーと提携せず、商業バナーを表示せず、マーケティング指標のためにアプリケーション内での行動をプロファイリングすることもありません。したがって、本アプリケーションがお客様のデバイスのGoogle広告ID（AAID）を追跡、要求、または処理することはありません。</p>
+
+  <h2 id="third-party"><span class="sec-no">4.</span>サードパーティサービス</h2>
+  <p>当社は、サードパーティのソフトウェア開発キット（SDK）および外部サービスの利用を、アプリケーションの安定性のために排他的に必要なプラットフォームレベルのインフラストラクチャ、およびセクション2で説明したオプションのAIインサイトプロバイダーのみに制限しています。これらのプロバイダーのプライバシーフレームワークは、以下からご確認いただけます。</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" rel="noopener">Google Play開発者サービス（Google Play Services）</a></li>
+    <li><a href="https://groq.com/privacy-policy/" rel="noopener">Groq, Inc.</a> — AIインサイト機能を有効にした場合のみ連絡されます</li>
+  </ul>
+
+  <h2 id="log-data"><span class="sec-no">5.</span>ログデータ</h2>
+  <p>アプリケーションの予期せぬクラッシュやランタイムエラーが発生した場合、本アプリケーションはお客様のデバイスによって生成された診断用のクラッシュテレメトリ（安全なプラットフォームデバッグツール経由）を収集します。これはログデータと呼ばれ、以下が含まれます。</p>
+  <ul>
+    <li>お客様のデバイスのモデル名、製造元、およびコアハードウェアアーキテクチャ。</li>
+    <li>例外（エラー）が発生した正確な時点におけるオペレーティングシステムのバージョンおよびシステム状態の構成。</li>
+    <li>システムイベントに関連する実行メトリクス、タイムスタンプ、およびスタックトレース。</li>
+  </ul>
+  <p>当社は、これらのログをソフトウェアのバグの特定、リソース割り当ての最適化、およびパフォーマンスアップデートの展開のためにのみ使用します。</p>
+
+  <h2 id="storage"><span class="sec-no">6.</span>ストレージとローカルデータベース</h2>
+  <p>WiFi 侵入者アラートは、追跡用Cookieを使用しません。本アプリケーションは、デバイス固有のネイティブストレージメカニズム（暗号化されたSQLiteやプラットフォームのSharedPreferencesなど）を利用して、検証済みのデバイスプロファイル、侵入者フィルター、およびカスタム設定をローカルに保持します。</p>
+  <p>ストレージの権限は、モバイルオペレーティングシステムの設定からいつでも管理できます。システム設定からアプリケーションのキャッシュまたはデータを消去すると、ローカルに構築されたデバイス検証リストが恒久的に削除されますのでご注意ください。</p>
+
+  <h2 id="service-providers"><span class="sec-no">7.</span>サービスプロバイダー</h2>
+  <p>当社は、以下の目的のために、外部のクラウドパートナーまたは専門的な技術インフラストラクチャプロバイダーに業務を委託する場合があります。</p>
+  <ul>
+    <li>コアビルドアセットおよびソフトウェア配信メカニズムのホスト、セキュリティ保護、または維持。</li>
+    <li>当社に代わって実施する自動コンパイルテストまたはバイナリ評価の実行。</li>
+    <li>集計された、完全に個人を特定しないテレメトリのパフォーマンスメトリクスの評価における支援。</li>
+  </ul>
+  <p>これらの企業には、使用目的を指定された業務に限定し、最大限のデータセキュリティコンプライアンスを義務付ける厳格な契約上の制約のもとで、プラットフォーム診断へのアクセスが許可されます。</p>
+
+  <h2 id="security"><span class="sec-no">8.</span>セキュリティ</h2>
+  <p>お客様のモバイルアプリケーション環境の防御的な整合性を確保することは、当社の最優先事項です。当社はローカルアプリケーションのデータベースおよびAIインサイトの通信経路を保護するために標準的な商用パターンを使用していますが、ウェブ上の送信やデジタルストレージアレイにおいて、完全に不変（絶対に変造不可能）なものは存在しません。当社はローカルの暗号化フレームワークを定期的に評価していますが、新たに出現するすべてのデジタル脅威に対する絶対的なセキュリティを保証することはできません。</p>
+
+  <h2 id="updates"><span class="sec-no">9.</span>ポリシーの改定</h2>
+  <p>当社は、新しい機能のマイルストーン、モバイルプラットフォームのオペレーティングシステム権限の変更、または地域のプライバシー規制への対応のために、本プライバシーポリシーを改定する権利を留保します。更新情報はすべてこのページ上に表示され、公開された時点で即座に有効になります。当社のデータ隔離の慣行を把握するために、本声明を定期的に確認することをお勧めします。</p>
+
+  <h2 id="contact"><span class="sec-no">10.</span>お問い合わせ</h2>
+  <p>データの処理、アセットの取り扱い、または本プライバシーポリシーの構造的な仕組みに関するご質問は、下記より当社チームまでお問い合わせください。</p>
+  <p>
+    <strong>Kizuna Software Solutions</strong><br>
+    Eメール：<a href="mailto:support@kizunasoftware.com">support@kizunasoftware.com</a><br>
+    ウェブサイト：<a href="https://www.kizunasoftwaresolutions.com/" rel="noopener">kizunasoftwaresolutions.com</a>
+  </p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; 2026 Kizuna Software Solutions. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="/ja/privacy">プライバシーポリシー</a>
+      <a href="/ja/terms">利用規約</a>
+      <a href="/ja/support">サポート</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
